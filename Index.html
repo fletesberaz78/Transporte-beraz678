@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Logística y Envíos - Fletez Veraz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img {
+      height: 60px;
+      vertical-align: middle;
+    }
+
+    nav {
+      background-color: #333;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input, textarea {
+      margin-bottom: 15px;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px;
+      margin-top: 20px;
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50%;
+      text-align: center;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .whatsapp-float img {
+      width: 30px;
+      height: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://i.ibb.co/0Vtk5qW5/Logo.png" alt="Logo de Fletez Veraz" />
+    <h1 style="display: inline-block; margin-left: 10px;">Logística y empresa de envíos</h1>
+    <p>Bienvenido envíos a todo el país</p>
+  </header>
+
+  <section id="portada">
+    <img src="https://i.ibb.co/zTcMb8zx/foto.jpg" alt="Foto de portada" style="width: 100%; height: auto; border-radius: 0;" />
+  </section>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#foto">Mi Foto</a>
+    <a href="#contacto">Contacto</a>
+    <a href="#cronograma">Cronograma</a>
+  </nav>
+
+  <main>
+    <section id="inicio">
+      <h2>Inicio</h2>
+      <p>Consultas las 24 hs. WhatsApp disponible siempre. ¡Hacemos traslados urgentes también!</p>
+    </section>
+
+    <section id="foto">
+      <h2>Mi Foto</h2>
+      <img src="https://i.ibb.co/zTcMb8zx/foto.jpg" alt="Foto de Fletez Veraz" />
+    </section>
+
+    <section id="contacto">
+      <h2>Formulario de contacto</h2>
+      <form action="https://formsubmit.co/catalangabriel346@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://tu-sitio.com/gracias.html">
+        <input type="text" name="name" placeholder="Tu nombre" required />
+        <input type="email" name="email" placeholder="Tu correo electrónico" required />
+        <textarea name="message" rows="5" placeholder="Tu mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <section id="cronograma">
+      <h2>Cronograma</h2>
+      <img src="https://i.ibb.co/FkxcHvQT/Cronograma.png" alt="Imagen del cronograma" />
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Fletez Veraz - Todos los derechos reservados
+    <p>
+      <a href="https://wa.me/5491121688158" target="_blank" style="color: white; text-decoration: none;">
+        <img src="https://img.icons8.com/ios-filled/30/ffffff/whatsapp.png" alt="WhatsApp" style="vertical-align: middle; margin-right: 5px;" />
+        Contactame por WhatsApp
+      </a>
+    </p>
+  </footer>
+
+  <!-- Ícono flotante de WhatsApp -->
+  <a href="https://wa.me/5491121688158" class="whatsapp-float" target="_blank">
+    <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="WhatsApp">
+  </a>
+
+</body>
+</html>
